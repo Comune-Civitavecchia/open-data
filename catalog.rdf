@@ -482,7 +482,7 @@
     <dcat:distribution rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//tipologie-di-procedimento/csv11"/>
   </dcatapit:Dataset>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo/csv2">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=731&amp;id%5Fcriterio=85&amp;id%5Foggetto=29&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=731&amp;id_criterio=85&amp;id_oggetto=29&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -497,7 +497,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//provvedimenti-organi-indirizzo-politico/csv3">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=725&amp;id%5Fcriterio=81&amp;id%5Foggetto=28&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=725&amp;id_criterio=81&amp;id_oggetto=28&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -512,7 +512,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//provvedimenti-dirigenti-amministrativi/csv4">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=726&amp;id%5Fcriterio=80&amp;id%5Foggetto=28&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=726&amp;id_criterio=80&amp;id_oggetto=28&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -527,7 +527,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//bandi-di-gara-e-contratti/csv5">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=566&amp;id%5Fcriterio=461&amp;id%5Foggetto=105&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=566&amp;id_criterio=461&amp;id_oggetto=105&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -542,7 +542,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//atti-di-concessione/csv6">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=48&amp;id%5Fcriterio=191&amp;id%5Foggetto=38&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=48&amp;id_criterio=191&amp;id_oggetto=38&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -557,7 +557,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//pagamenti-di-sovvenzioni-contributi-sussidi-vantaggi-economici/csv7">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=857&amp;id%5Fcriterio=199&amp;id%5Foggetto=38&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=857&amp;id_criterio=199&amp;id_oggetto=38&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -572,7 +572,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//tassi-di-assenza/csv8">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=54&amp;id%5Fcriterio=211&amp;id%5Foggetto=59&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=54&amp;id_criterio=211&amp;id_oggetto=59&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -587,7 +587,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//articolazione-degli-uffici/csv9">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=25&amp;id%5Fcriterio=163&amp;id%5Foggetto=13&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=25&amp;id_criterio=163&amp;id_oggetto=13&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -602,7 +602,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//contatti-ente/csv10">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=65&amp;id%5Fcriterio=163&amp;id%5Foggetto=13&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=65&amp;id_criterio=163&amp;id_oggetto=13&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
@@ -617,7 +617,7 @@
     <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
   </dcatapit:Distribution>
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//tipologie-di-procedimento/csv11">
-    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export%5Fopen%5Fdata%5Fcsv.php?id%5Fsezione=22&amp;id%5Fcriterio=196&amp;id%5Foggetto=16&amp;id%5Fente=278&amp;ricPost=1"/>
+    <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=22&amp;id_criterio=196&amp;id_oggetto=16&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
       <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>

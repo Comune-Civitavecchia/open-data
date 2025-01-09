@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it/">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Comune di Civitavecchia</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="c_c773">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>c_c773</dct:identifier>
+      <foaf:name>Comune di Civitavecchia - Servizio 1- Ufficio Servizi Informatici e Transizione al Digitale</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Comune di Civitavecchia</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-01</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//provvedimenti-organi-indirizzo-politico"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//provvedimenti-dirigenti-amministrativi"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//bandi-di-gara-e-contratti"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//atti-di-concessione"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//pagamenti-di-sovvenzioni-contributi-sussidi-vantaggi-economici"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//tassi-di-assenza"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//articolazione-degli-uffici"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//contatti-ente"/>
+  <dcat:dataset rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it//tipologie-di-procedimento"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>Bilancio preventivo e consuntivo</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina731:bilancio-preventivo-e-consuntivo.html/"/>
+    <dct:description>Questo dataset contiene i bilanci preventivi e consuntivi, ovvero i documenti che riportano le previsioni e le realtà finanziarie dell'amministrazione.</dct:description>
+    <dct:identifier>c_c773:bilancio-preventivo-e-consuntivo</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100205">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2441 bilancio</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-24</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-04-05</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//provvedimenti-organi-indirizzo-politico">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:license/>
+    <dct:title>Provvedimenti organi indirizzo politico</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina725:provvedimenti-organi-indirizzo-politico.html/"/>
+    <dct:description>Questo dataset contiene i provvedimenti emanati dagli organi di indirizzo politico</dct:description>
+    <dct:identifier>c_c773:provvedimenti-organi-indirizzo-politico</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-08</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-22</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//provvedimenti-dirigenti-amministrativi">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:license/>
+    <dct:title>Provvedimenti dirigenti amministrativi</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina726:provvedimenti-dirigenti-amministrativi.html/"/>
+    <dct:description>Questo dataset contiene i provvedimenti emanati dai dirigenti amministrativi</dct:description>
+    <dct:identifier>c_c773:provvedimenti-dirigenti-amministrativi</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-08</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-02-15</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//bandi-di-gara-e-contratti">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:license/>
+    <dct:title>Bandi di gara e contratti</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina566:bandi-di-gara-e-contratti.html/"/>
+    <dct:description>Questo dataset contiene i bandi di gare e contratti</dct:description>
+    <dct:identifier>c_c773:bandi-di-gara-e-contratti</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-03</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-01-24</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//atti-di-concessione">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:license/>
+    <dct:title>Atti di concessione</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina48:atti-di-concessione.html/"/>
+    <dct:description>Questo dataset contiene gli atti di concessione</dct:description>
+    <dct:identifier>c_c773:atti-di-concessione</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-11-28</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-07-13</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/ECON">
+    <skos:prefLabel>Economia e finanze</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//pagamenti-di-sovvenzioni-contributi-sussidi-vantaggi-economici">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+    <dct:license/>
+    <dct:title>Pagamenti di Sovvenzioni contributi sussidi vantaggi economici</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina857:pagamenti-di-sovvenzioni-contributi-sussidi-vantaggi-economici.html/"/>
+    <dct:description>Questo dataset contiene i pagamenti relativi a sovvenzioni, contributi, sussidi e vantaggi economici</dct:description>
+    <dct:identifier>c_c773:pagamenti-di-sovvenzioni-contributi-sussidi-vantaggi-economici</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100202">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2426 investimenti e finanziamenti</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-17</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-02-09</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//tassi-di-assenza">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>Tassi di assenza</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina54:tassi-di-assenza.html/"/>
+    <dct:description>Questo dataset contiene i tassi di assenza</dct:description>
+    <dct:identifier>c_c773:tassi-di-assenza</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100235">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4421 amministrazione e remunerazione del personale</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-01-07</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-05-11</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//articolazione-degli-uffici">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>Articolazione degli uffici</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina25:articolazione-degli-uffici.html/"/>
+    <dct:description>Questo dataset contiene l'articolazione degli uffici</dct:description>
+    <dct:identifier>c_c773:articolazione-degli-uffici</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100235">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4421 amministrazione e remunerazione del personale</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-14</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/SOCI">
+    <skos:prefLabel>Popolazione e società</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//contatti-ente">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+    <dct:license/>
+    <dct:title>Contatti ente</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina65:telefono-e-posta-elettronica.html/"/>
+    <dct:description>Questo dataset contiene i contatti dell'ente</dct:description>
+    <dct:identifier>c_c773:contatti-ente</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100235">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">4421 amministrazione e remunerazione del personale</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-12-05</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-01-14</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/GOVE">
+    <skos:prefLabel>Governo e settore pubblico</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//tipologie-di-procedimento">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:license/>
+    <dct:title>Tipologie di procedimento</dct:title>
+    <dcat:landingPage rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/pagina22:tipologie-di-procedimento.html/"/>
+    <dct:description>Questo dataset contiene le tipologie di procedimento</dct:description>
+    <dct:identifier>c_c773:tipologie-di-procedimento</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/IRREG"/>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="c_c773">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>c_c773</dct:identifier>
+        <foaf:name>Comune di Civitavecchia</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100169">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">0436 potere esecutivo e amministrazione pubblica</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2024-09-22</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2020-10-11</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+  </dcatapit:Dataset>
+<dcatapit:Organization rdf:about="https://www.comune.civitavecchia.rm.it/">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Comune di Civitavecchia</vcard:fn>
+  <vcard:hasEmail rdf:resource="comune.civitavecchia@legalmail.it"/>
+  <vcard:hasTelephone>+39 0766 5901</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
+</dcatapit:Organization>
+</rdf:RDF>

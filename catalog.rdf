@@ -638,7 +638,7 @@
   <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
   <rdf:type rdf:resource="vcard:Kind"/>
   <vcard:fn>Comune di Civitavecchia</vcard:fn>
-  <vcard:hasEmail rdf:resource="comune.civitavecchia@legalmail.it"/>
+  <vcard:hasEmail rdf:resource="servizi.informatici@comune.civitavecchia.rm.it"/>
   <vcard:hasTelephone>+39 0766 5901</vcard:hasTelephone>
   <vcard:hasURL rdf:resource="https://www.comune.civitavecchia.rm.it/"/>
 </dcatapit:Organization>

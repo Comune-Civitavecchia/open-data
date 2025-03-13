@@ -484,7 +484,7 @@
   <dcatapit:Distribution rdf:about="https://civitavecchia.portaleamministrazionetrasparente.it//bilancio-preventivo-e-consuntivo/csv2">
     <dcat:accessURL rdf:resource="https://civitavecchia.portaleamministrazionetrasparente.it/export_open_data_csv.php?id_sezione=731&amp;id_criterio=85&amp;id_oggetto=29&amp;id_ente=278&amp;ricPost=1"/>
     <dct:license>
-      <dcatapit:LicenseDocument rdf:about="">
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/publicdomain/zero/1.0/">
         <rdf:type rdf:resource="dct:LicenseDocument"/>
         <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
         <foaf:name>Creative Commons CC0 1.0 Universale - Public Domain Dedication (CC0 1.0)</foaf:name>
